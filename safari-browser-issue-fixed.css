@@ -1,0 +1,100 @@
+/*for all sofari browser*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+     ::i-block-chrome,
+    header .header .header-container .nav-tab {
+        width: 14.28%;
+        float: left;
+    }
+    }
+    /*for all iphone*/
+    /* IE6 and below */
+* html #one { color: red }
+  
+/* IE7 */
+*:first-child+html #two { color: red } 
+  
+/* IE7, FF, Safari, Opera  */
+html>body #three { color: red }
+  
+/* IE8, FF, Safari, Opera (Everything but IE 6,7) */
+html>/**/body #four { color: red }
+ 
+/* Opera 9.27 and below, Safari 2 */
+html:first-child #five { color: red }
+ 
+/* Safari only */
+html:lang(en)>body  .classname {} 
+  
+/* Safari 2-3 */
+html[xmlns*=""] body:last-child #six { color: red }
+  
+/* Safari 3+, chrome 1+, opera9+, ff 3.5+ */
+body:nth-of-type(1) #seven { color: red }
+  
+/* Safari 3+, chrome 1+, opera9+, ff 3.5+ */
+body:first-of-type #eight {  color: red }
+ 
+/* Chrome only */
+body:nth-of-type(1) p{ color: #333333; }
+  
+/* Safari3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ #nine  { color: red  }
+}
+  
+/* iPhone 3G-/ mobile webkit */
+@media screen and (max-device-width: 480px) {
+ #ten { color: red  }
+}
+     
+/* iPhone 4+ */
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+ #eleven { color: red  }
+}
+ 
+/* iPhone all */
+@media only screen and (max-device-width: 480px) , 
+       only screen and (-webkit-min-device-pixel-ratio: 2) {
+ #twelve { color: red  }
+}
+ 
+/* iPad generic layout */
+@media only screen and (device-width: 768px) {
+ #thirteen{ color: red  }
+}
+ 
+/* iPad portrait layout */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+ #fourteen { color: red  }
+}
+ 
+/* iPad landscape layout */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+ #fifteen { color: red  }
+}
+ 
+/* Opera only */
+@media all and (min-width: 0px){
+    .classname { color: red }
+}
+  
+/* Safari 2 - 3.1 */
+html[xmlns*=""]:root #sixteen  { color: red  }
+  
+/* Safari 2 - 3.1, Opera 9.25 */
+*|html[xmlns*=""] #seventeen { color: red  }
+  
+/* Everything but IE6-8 */
+:root *> #eighteen { color: red  }
+  
+/* IE7 */
+*+html #nineteen {  color: red }
+  
+/* Firefox only. 1+ */
+#twenty,  x:-moz-any-link  { color: red }
+  
+/* Firefox 3.0+ */
+#twentyone,  x:-moz-any-link, x:default  { color: red  }
+  
+/* Firefox 3.5+ */
+body:not(:-moz-handler-blocked) #twentytwo { color: red; }
